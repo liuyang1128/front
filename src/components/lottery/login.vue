@@ -1,7 +1,7 @@
 <template>
     <div class="login" >
         <div class="top-left">
-            <file-upload :url="'/lottery-web/lottery/excelDataSave.do'" :text="'导入抽奖码'" :format="format"></file-upload>
+            <!-- <file-upload :url="'/lottery-web/lottery/excelDataSave.do'" :text="'导入抽奖码'" :format="format"></file-upload> -->
             <file-upload :url="'/lottery-web/lottery/excelDataDelete.do'" :text="'　删　除　'" :format="format"></file-upload>
         </div>
         <div class="center">
