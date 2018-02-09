@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: '微软雅黑';
+    font-size: 12px;
+}
+html, body, div {
+    color: #333;
+}
+html, body {
+    background-color: #f7f7f7;
+    width: 100%;
+     height: 100%;
+    /*background: url(../../assets/images/background.gif) no-repeat fixed top;
+     background-size: 100% 100%;*/
+     
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.hide {
+    display: none;
+}
+.prompt p {
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+.visihide {
+    visibility:hidden;
+}
+input[disabled] {
+    cursor: text!important;
+
+}
+.ivu-select-disabled .ivu-select-selection {
+    cursor: text!important;
+}
+textarea[disabled] {
+    cursor: text!important;
+} 
+/* 预览图片样式 */
+/* .viewer-play,.viewer-prev,.viewer-next {
+    width: 0px!important;
+}
+.myviewer {
+    position: fixed;
+    top: 10%;
+    margin-top: 0!important;
+}
+.viewer-canvas img {
+    transition:margin-top 1s;
+}
+.viewer-footer {
+    top: 0;
+} */
+.result_red input {
+    font-weight: bold;
+    color: red!important;
+}
+span.result_red {
+
+    font-weight: bold;
+    color: red!important;
+
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
